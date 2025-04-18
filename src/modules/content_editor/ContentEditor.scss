@@ -1,0 +1,27 @@
+.editor-container {
+    max-width: 800px;
+
+}
+
+.editor {
+
+
+    min-height: center;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    outline: none;
+    position: relative;
+
+    &.empty::before {
+        content: 'Start writing... ✍️';
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        color: white;
+        font-style: italic;
+        pointer-events: none;
+    }
+}

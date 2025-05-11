@@ -3,7 +3,7 @@
 //import { SiteItem } from ".components/SiteItem";
 
 
-export function Page3() {
+export function Inbox() {
     return (
         <>
             <h1>coś tutaj będzie</h1>

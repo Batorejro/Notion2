@@ -3,7 +3,7 @@
 //import { SiteItem } from ".components/SiteItem"
 
 
-export function Settings() {
+export function NewPages() {
     return (
         <>
             <h1>coś tutaj będzie</h1>
